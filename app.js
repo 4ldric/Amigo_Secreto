@@ -21,3 +21,8 @@ function limparCampo() {
 
 //LISTANDO AMIGOS
 
+function listarAmigos() {
+  listagem = document.getElementById("listaAmigos");
+  listagem.innerHTML = "";
+  teste = amigos.map((nome) => (listagem.innerHTML += `<li>${nome}<li>`));
+}
