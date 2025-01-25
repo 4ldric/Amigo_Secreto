@@ -26,3 +26,16 @@ function listarAmigos() {
   listagem.innerHTML = "";
   teste = amigos.map((nome) => (listagem.innerHTML += `<li>${nome}<li>`));
 }
+
+function sortearAmigo() {
+  resultado = document.getElementById("resultado");
+  if (amigos != "") {
+    gerador = Math.random() * amigos.length;
+    sorteio = Math.floor(gerador);
+
+    resultado.innerHTML = `O seu amigo secreto e: ${amigos[sorteio]}`;
+  } else {
+    resultado.style.color = "red";
+    resultado.innerHTML = "Primeiro insira os participantes para sortear!!";
+  }
+}
