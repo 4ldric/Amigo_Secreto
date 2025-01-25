@@ -9,15 +9,18 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
 - [x] Sortear amigos
+- [ ] organizar lista de participantes
 - [ ] Adicionar opção de reset
 - [ ] Implementar nova interface
 - [ ] Responsivel
 
 ## ☕ Usando Nosso programa
 
-Para usar o amigo secreto, basta clonar o repositorio ou baixar os arquivos e acessar o index.html no navegador:
+Para usar o amigo secreto, basta clonar o repositorio ou acessar o link do deploy:
 
 git clone https://github.com/4ldric/Amigo_Secreto
+
+link: https://4ldric.github.io/Amigo_Secreto/
 
 ## 📫 Contribuindo ao amigo secreto
 
